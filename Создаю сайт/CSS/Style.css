@@ -1,0 +1,104 @@
+.container {
+  background-image: url(../img/bgc.png);
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 1200px;
+  min-height: 800px;
+}
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  padding-top: 1%;
+}
+.header__elem1 {
+  display: flex;
+  justify-content: space-between;
+  width: 31%;
+  padding-right: ;
+}
+.header__elem2 {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-left: ;
+}
+.header_link1 {
+  margin: auto;
+}
+.logo {
+  margin: auto;
+  min-width: 266px;
+  width: 20%;
+  padding-left: 9%;
+}
+.diamond_logo {
+  display: inline-block;
+  z-index: 1000;
+  position: relative;
+  top: -13px;
+  left: -204px;
+}
+.diamond_logo2 {
+  display: inline-block;
+  z-index: 1000;
+  position: relative;
+  top: -13px;
+  left: -65px;
+}
+.title {
+  margin: auto;
+  width: 430px;
+  padding-top: 519px;
+  padding-bottom: 66px;
+}
+.titledecor {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+  font-family: notoserif;
+}
+.pricelist {
+  margin: auto;
+  width: 100%;
+  height: 51px;
+  text-align: center;
+}
+.borderprice {
+  font-family: gilroy;
+  width: 261px;
+  height: 51px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 33px;
+
+  letter-spacing: 2px;
+}
+.horizontline {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 64px;
+  margin-bottom: 29px;
+}
+.lastblock {
+  text-align: center;
+  letter-spacing: 12px;
+}
+@font-face {
+  font-family: gilroy;
+  src: url(../Fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: notoserif;
+  src: url(../Fonts/NotoSerif-Bold.ttf);
+}
